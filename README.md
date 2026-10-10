@@ -3,7 +3,6 @@
 **721 Python Manager** is a Windows desktop application for finding Python installations, inspecting Python scripts and managing their dependencies from one place.
 
 Copyright © 2026 721PC-Net Corporation.
-<img width="480" height="475" alt="image" src="https://github.com/user-attachments/assets/e060b521-ad80-4b59-8e42-492fff6514b2" />
 
 ## Features
 
@@ -51,23 +50,6 @@ Or specify the script and Python executable explicitly:
 ```
 
 The application also accepts `.pyw` files. When registered, **721 Detect Module** is added inside Python's existing **Edit with IDLE** context-menu entry. Registration is available when a Python environment is detected and can be toggled from the application.
-
-## Build from source
-
-### Requirements
-
-- Windows
-- .NET 8 SDK
-- PowerShell
-- Network access to restore NuGet packages.
-
-Run the build script from the project root:
-
-```cmd
-build.cmd
-```
-
-The script publishes self-contained x86 and x64 builds and creates the shared launcher in `dist\721PythonManager.exe`.
 
 ## Python downloads
 

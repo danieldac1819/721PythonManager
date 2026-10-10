@@ -58,7 +58,7 @@ The application also accepts `.pyw` files. When registered, **721 Detect Module*
 - Windows
 - .NET 8 SDK
 - PowerShell
-- Network access to restore NuGet packages and, on the first build, download the pinned Obfuscar tool if it is not already present in `.tools\obfuscar`.
+- Network access to restore NuGet packages.
 
 Run the build script from the project root:
 
@@ -66,7 +66,7 @@ Run the build script from the project root:
 build.cmd
 ```
 
-The script publishes self-contained x86 and x64 builds, applies the configured high-obfuscation profile to each application assembly, and creates the shared launcher in `dist\721PythonManager.exe`.
+The script publishes self-contained x86 and x64 builds and creates the shared launcher in `dist\721PythonManager.exe`.
 
 ## Python downloads
 
@@ -76,7 +76,6 @@ Release and Windows installer metadata is read from Python.org's public JSON ind
 
 - C# and Windows Forms
 - .NET 8 (`net8.0-windows`)
-- Obfuscar for assembly obfuscation during release builds
 
 ## Copyright
 

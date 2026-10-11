@@ -1,13 +1,19 @@
 # 721 Python Manager
 
 <!-- BUILD_INFO_START -->
-**Latest version:** 1.0.19  
+**Latest version:** 1.0.20  
 **Last updated:** 2026-10-11
 <!-- BUILD_INFO_END -->
 
 **721 Python Manager** is a Windows desktop application for finding Python installations, inspecting Python scripts and managing their dependencies from one place.
 
 Copyright © 2026 721PC-Net Corporation.
+
+## Video tutorial
+
+Watch the video for a walkthrough of 721 Python Manager:
+
+[![Watch the 721 Python Manager tutorial](https://img.youtube.com/vi/FNYfRo4JmFs/hqdefault.jpg)](https://youtu.be/FNYfRo4JmFs)
 
 learning Download:
 <img width="480" height="475" alt="image" src="https://github.com/user-attachments/assets/e060b521-ad80-4b59-8e42-492fff6514b2" />

@@ -1,7 +1,7 @@
 # 721 Python Manager
 
 <!-- BUILD_INFO_START -->
-**Latest version:** 1.0.17  
+**Latest version:** 1.0.19  
 **Last updated:** 2026-10-11
 <!-- BUILD_INFO_END -->
 

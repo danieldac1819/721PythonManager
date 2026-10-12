@@ -1,8 +1,8 @@
 # 721 Python Manager
 
 <!-- BUILD_INFO_START -->
-**Latest version:** 1.0.20  
-**Last updated:** 2026-10-11
+**Latest version:** 1.0.37  
+**Last updated:** 2026-10-12
 <!-- BUILD_INFO_END -->
 
 **721 Python Manager** is a Windows desktop application for finding Python installations, inspecting Python scripts and managing their dependencies from one place.
@@ -23,6 +23,8 @@ learning Download:
 - Detect Python environments and show their executable, pip executable, version and architecture.
 - Open `.py` and `.pyw` files with the file picker, drag and drop, command line, or the Windows **Edit with IDLE → 721 Detect Module** context menu.
 - View Python source code with syntax highlighting and identify imported packages that are missing from the selected environment.
+- Check Python syntax and indentation on demand, then apply safe indentation fixes when available.
+- Use **AI Fix** for ChatGPT analysis and repair when a local quick fix is not enough. AI proposals are syntax-checked with the selected Python interpreter and shown for review before they are applied.
 - Install missing packages in a batch, review installed packages, and uninstall selected packages.
 - Run scripts and commands against the selected Python environment.
 - Use command presets for Nuitka, PyInstaller, cx_Freeze and Briefcase.
@@ -48,6 +50,10 @@ dist/
 Run `721PythonManager.exe`. It selects the matching x86 or x64 application for the current Windows installation. The distribution is self-contained and does not require a separate .NET runtime installation. Keep all files and folders in the distribution; the architecture folders contain required application and runtime files.
 
 Python itself is only needed for running scripts and managing Python packages. The manager can also be opened before Python is installed, for example to browse Python releases.
+
+## AI-assisted Python fixes
+
+AI Fix uses the OpenAI API and requires an API key. The AI Fix dialog lets you enter a key, reuse a saved key, or replace/remove it. Saved keys are encrypted for the current Windows user and stored in `%ProgramData%\721PythonManager.ini`. When you continue with AI Fix, the selected script source and its syntax diagnostic are sent to OpenAI. The proposed source must pass a syntax check with the selected Python interpreter and be approved in the review dialog before the file is changed. API usage may be billed by OpenAI.
 
 ## Open a script from the command line
 
